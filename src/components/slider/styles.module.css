@@ -1,0 +1,46 @@
+.img {
+  width: 100%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid #d2c9e6;
+}
+.box h4 {
+  color: #8b5cf6;
+}
+.box {
+  position: relative;
+  padding-top: 100px;
+}
+.left {
+  position: absolute;
+  top: 275px;
+  left: 150px;
+  font-size: 40px;
+  cursor: pointer;
+  color: gray;
+}
+.right {
+  position: absolute;
+  top: 275px;
+  right: 150px;
+  font-size: 40px;
+  cursor: pointer;
+  color: gray;
+}
+@media (max-width: 992px) {
+  .img {
+    width: 120px;
+    height: 120px;
+  }
+  .left {
+    left: 50px;
+  }
+  .right {
+    right: 50px;
+  }
+}

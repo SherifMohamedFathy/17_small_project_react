@@ -1,0 +1,14 @@
+h2 {
+  background-color: rgb(251, 211, 120);
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  cursor: pointer;
+}

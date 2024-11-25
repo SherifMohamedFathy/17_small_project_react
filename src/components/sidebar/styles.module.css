@@ -1,0 +1,176 @@
+.wrapper {
+  background-color: #eee;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  transition: left 0.5s ease-in-out;
+}
+
+.sidebarOpen {
+  left: 0;
+}
+
+.sidebarClose {
+  left: -400px;
+}
+
+.sidebarAnimate {
+  animation: animateOpen 2s 1 linear;
+  -webkit-animation: animateOpen 2s 1 linear;
+}
+.head {
+  padding: 20px;
+}
+.item {
+  color: #999;
+  margin-bottom: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 7px 20px;
+  transition: linear 0.3s;
+  -webkit-transition: linear 0.3s;
+  -moz-transition: linear 0.3s;
+  -ms-transition: linear 0.3s;
+  -o-transition: linear 0.3s;
+}
+.item i {
+  margin-right: 20px;
+}
+.close {
+  cursor: pointer;
+}
+.item:hover {
+  background-color: #eee;
+}
+
+.bar {
+  color: rgb(71, 163, 238);
+  cursor: pointer;
+  animation: animate 2s infinite linear;
+  transition: 2s;
+  -webkit-animation: animate 2s infinite linear;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+}
+
+@keyframes animateOpen {
+  0% {
+    left: -266px;
+  }
+  50% {
+    left: -133px;
+  }
+  100% {
+    left: 0;
+  }
+}
+.landing button,
+.popupContent h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(111, 149, 237);
+  padding: 4px 20px;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+}
+.popupContent h2 {
+  background-color: transparent;
+}
+.popupContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(144, 177, 244);
+  width: 600px;
+  height: 220px;
+  border-radius: 6px;
+
+  transition: 2s 1 linear;
+
+  -webkit-transition: 2s 1 linear;
+  -moz-transition: 2s 1 linear;
+  -ms-transition: 2s 1 linear;
+  -o-transition: 2s 1 linear;
+}
+.one {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.overlay {
+  position: absolute;
+  display: none;
+
+  bottom: 0;
+  background-color: rgba(90, 87, 87, 0.7);
+  width: 100vw;
+  height: 100vh;
+}
+.overlayShow {
+  display: unset;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+.link {
+  text-decoration: none;
+  color: #999;
+}

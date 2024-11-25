@@ -1,0 +1,18 @@
+.validInput {
+  border: 2px solid green;
+}
+
+.invalidInput {
+  border: 2px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.errorMessage2 {
+  color: green;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}

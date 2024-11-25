@@ -1,0 +1,40 @@
+.number {
+  position: absolute;
+  top: -15px;
+  font-size: 17px;
+
+  background: rgb(124, 120, 120);
+  border-radius: 50%;
+  color: beige;
+  left: 25px;
+
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  cursor: pointer;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+}
+.down,
+.up {
+  cursor: pointer;
+  font-size: 22px;
+}
+.clear {
+  padding: 10px 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+@media (max-width: 571px) {
+  .head {
+    width: 85%;
+  }
+}

@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.fa-cart-shopping {
+  font-size: 22px;
+}
+.counter_head {
+  font-size: 20px;
+}
+.item {
+  font-size: 20px;
+}
+.fa-rotate {
+  cursor: pointer;
+  font-size: 18px;
+  transition: linear 0.2s;
+}
+.fa-recycle {
+  cursor: pointer;
+  font-size: 18px;
+  transition: linear 0.2s;
+}
+.num {
+  font-size: 21px;
+}
+.fa-circle-plus,
+.fa-circle-minus,
+.fa-trash {
+  cursor: pointer;
+  transition: linear 0.2s;
+  -webkit-transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  -ms-transition: linear 0.2s;
+  -o-transition: linear 0.2s;
+}
+.fa-circle-plus:hover,
+.fa-circle-minus:hover,
+.fa-trash:hover,
+.fa-recycle:hover,
+.fa-rotate:hover {
+  opacity: 1 !important;
 }

@@ -1,0 +1,12 @@
+.choice,
+h4 {
+  width: 50%;
+  text-align: start;
+  margin: auto;
+  cursor: pointer;
+}
+
+input,
+label {
+  /* cursor: pointer; */
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin-right: 35px;
+}
+.header {
+  padding: 15px;
+  align-items: center;
+  box-shadow: 2px 1px 7px #bbb;
+  box-shadow: black;
+  background: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 66;
+}
+ul {
+  list-style: none;
+  width: 250px;
+}
+.header img {
+  height: 60px;
+  width: 80px;
+}
+.landing .cover {
+  background-image: url("./img/spaghetti-1932466_1280.jpg");
+  background-size: content;
+  background-position: center;
+  width: 100vw;
+  height: calc(100vh - 76px);
+
+  text-align: center;
+}
+.landing h2 {
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Courgette, cursive;
+  letter-spacing: 0.75rem;
+  font-size: 4rem;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+}
+.cover button {
+  position: absolute;
+  top: 65%;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  background: #1f88be;
+  color: #fff;
+  font-size: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: calc(100vh - 76px);
+}
+.title {
+  background: transparent;
+
+  font-family: Courgette, cursive;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 90px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+.title span {
+  color: #ff3333;
+}
+.body p {
+  text-align: center;
+  padding-top: 14px;
+  font-weight: 600;
+  color: #444;
+}
+.search input {
+  border: 2px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  opacity: 0.9;
+  outline: none;
+}
+.search i {
+  padding: 13px;
+  background: #1f88be;
+  border-radius: 0 6px 6px 0;
+  margin-right: 7px;
+  position: relative;
+  left: -42px;
+  top: -1px;
+  color: #fff;
+  cursor: pointer;
+}
+.search input:focus {
+  border-color: #1f88be;
+}
+.recipes h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: Courgette, cursive;
+}
+.card_ h4 {
+  width: 100% !important;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card_ h5 {
+  color: #b69811;
+  font-family: Courgette, cursive;
+}
+.img_url {
+  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+}

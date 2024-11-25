@@ -1,0 +1,16 @@
+.inputAdd,
+.search {
+  outline: none;
+  border: 1px solid #c0c5fb;
+  font-size: 18px;
+}
+.search {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+hr {
+  color: #606cf8;
+}
