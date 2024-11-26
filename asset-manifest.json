@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/17_small_project_react/static/css/main.4063770c.css",
+    "main.js": "/17_small_project_react/static/js/main.8a3aca26.js",
+    "static/media/spaghetti-1932466_1280.jpg": "/17_small_project_react/static/media/spaghetti-1932466_1280.78b61edc63036733d49b.jpg",
+    "static/media/fa-solid-900.ttf": "/17_small_project_react/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/gold-coin-2269849_1280.jpg": "/17_small_project_react/static/media/gold-coin-2269849_1280.f8f520a5800a3d61194f.jpg",
+    "static/media/gold-coin-2269848_1280.jpg": "/17_small_project_react/static/media/gold-coin-2269848_1280.8b82fa94997cb17fa223.jpg",
+    "static/media/highway-2985181_1280.jpg": "/17_small_project_react/static/media/highway-2985181_1280.de0900dae51be1f7cf99.jpg",
+    "static/media/fa-brands-400.ttf": "/17_small_project_react/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/groom-7983097_1280.jpg": "/17_small_project_react/static/media/groom-7983097_1280.04a2d6716030ddf7f723.jpg",
+    "static/media/people-875617_1280.jpg": "/17_small_project_react/static/media/people-875617_1280.19a16bf805942316f2e2.jpg",
+    "static/media/fa-solid-900.woff2": "/17_small_project_react/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/food-2085075_1280.png": "/17_small_project_react/static/media/food-2085075_1280.52ca942261fc95c3239e.png",
+    "static/media/male-5321547_1280.jpg": "/17_small_project_react/static/media/male-5321547_1280.213f488fa699b648f5b7.jpg",
+    "static/media/fa-brands-400.woff2": "/17_small_project_react/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/man-2109428_1280.jpg": "/17_small_project_react/static/media/man-2109428_1280.2d1148ba8f243ee89178.jpg",
+    "static/media/item-7.jpeg": "/17_small_project_react/static/media/item-7.2b2d85320c08729e6a58.jpeg",
+    "static/media/item-2.jpeg": "/17_small_project_react/static/media/item-2.f0b6b25efcbd39c641cb.jpeg",
+    "static/media/item-8.jpeg": "/17_small_project_react/static/media/item-8.77daac2abe411b747cb4.jpeg",
+    "static/media/item-4.jpeg": "/17_small_project_react/static/media/item-4.1246e0c14d2695db1ae5.jpeg",
+    "static/media/fa-regular-400.ttf": "/17_small_project_react/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/item-1.jpeg": "/17_small_project_react/static/media/item-1.59f884831772e6397275.jpeg",
+    "static/media/item-6.jpeg": "/17_small_project_react/static/media/item-6.71751fefb2ee55699e44.jpeg",
+    "static/media/item-3.jpeg": "/17_small_project_react/static/media/item-3.41dbf97f88e1e73a7474.jpeg",
+    "static/media/item-5.jpeg": "/17_small_project_react/static/media/item-5.39ce038c4ceb093d7c66.jpeg",
+    "static/media/item-9.jpeg": "/17_small_project_react/static/media/item-9.46d925888a7d2fa971d6.jpeg",
+    "static/media/fa-regular-400.woff2": "/17_small_project_react/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/17_small_project_react/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/17_small_project_react/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/17_small_project_react/index.html",
+    "main.4063770c.css.map": "/17_small_project_react/static/css/main.4063770c.css.map",
+    "main.8a3aca26.js.map": "/17_small_project_react/static/js/main.8a3aca26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4063770c.css",
+    "static/js/main.8a3aca26.js"
+  ]
+}
